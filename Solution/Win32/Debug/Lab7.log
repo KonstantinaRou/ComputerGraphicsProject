@@ -1,0 +1,65 @@
+﻿Build started 22/2/2016 9:57:47 PM.
+     1>Project "C:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\Lab7.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\..\3rdParty\inc /IC:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\..\3rdParty\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Arrow.cpp BorderLimit.cpp Door.cpp Totem.cpp Trap.cpp ..\Source\HelpLib.cpp ..\Source\Main.cpp ..\Source\OBJ\OBJLoader.cpp ..\Source\OBJ\OBJMaterial.cpp ..\Source\OBJ\OGLMesh.cpp ..\Source\OBJ\Texture.cpp ..\Source\OBJ\TGA.cpp ..\Source\Renderer.cpp ..\Source\SceneGraph\GeometryNode.cpp ..\Source\SceneGraph\GroupNode.cpp ..\Source\SceneGraph\Node.cpp ..\Source\SceneGraph\Root.cpp ..\Source\SceneGraph\TransformNode.cpp ..\Source\ShaderGLSL.cpp
+         ShaderGLSL.cpp
+         TransformNode.cpp
+         Root.cpp
+         Node.cpp
+         GroupNode.cpp
+         GeometryNode.cpp
+         Renderer.cpp
+     1>c:\users\tsipiripo\desktop\dungeon\project\source\renderer.cpp(45): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\source\renderer.cpp(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\source\renderer.cpp(1128): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\tsipiripo\desktop\dungeon\project\source\renderer.cpp(1388): warning C4305: '+=' : truncation from 'double' to 'float'
+         TGA.cpp
+         Texture.cpp
+         OGLMesh.cpp
+         OBJMaterial.cpp
+         OBJLoader.cpp
+         Main.cpp
+         HelpLib.cpp
+         Trap.cpp
+         Totem.cpp
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\totem.cpp(19): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\totem.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+         Door.cpp
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\door.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\door.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\door.cpp(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\door.cpp(44): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\door.cpp(55): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\door.cpp(56): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\door.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\door.cpp(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+         BorderLimit.cpp
+         Arrow.cpp
+     1>c:\users\tsipiripo\desktop\dungeon\project\solution\arrow.cpp(15): warning C4305: '=' : truncation from 'double' to 'float'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\..\Bin\Debug\x86\Assigmentx86d.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\..\3rdParty\lib\Debug\x86 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\..\Bin\Debug\x86\Assigmentx86d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\..\Bin\Debug\x86\Assigmentx86d.lib" /MACHINE:X86 Win32\Debug\Arrow.obj
+         Win32\Debug\BorderLimit.obj
+         Win32\Debug\Door.obj
+         Win32\Debug\Totem.obj
+         Win32\Debug\Trap.obj
+         Win32\Debug\HelpLib.obj
+         Win32\Debug\Main.obj
+         Win32\Debug\OBJLoader.obj
+         Win32\Debug\OBJMaterial.obj
+         Win32\Debug\OGLMesh.obj
+         Win32\Debug\Texture.obj
+         Win32\Debug\TGA.obj
+         Win32\Debug\Renderer.obj
+         Win32\Debug\GeometryNode.obj
+         Win32\Debug\GroupNode.obj
+         Win32\Debug\Node.obj
+         Win32\Debug\Root.obj
+         Win32\Debug\TransformNode.obj
+         Win32\Debug\ShaderGLSL.obj
+         Lab7.vcxproj -> C:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\..\Bin\Debug\x86\Assigmentx86d.exe
+     1>Done Building Project "C:\Users\tsipiripo\Desktop\Dungeon\Project\Solution\Lab7.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:07.24
